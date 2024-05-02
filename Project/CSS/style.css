@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    background: #000000;
+    padding: 12px;
+    width: 100%;
+}
+
+.header-img {
+    width: 20px;
+}
+
+.center-div img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header-links {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(174, 170, 170);
+    vertical-align: middle;
+}
+
+.header-links:hover {
+    color: rgb(227, 227, 227);
+}
+
+.center-div {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inches {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.h1 {
+    font-size: 3.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.mac {
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.banner-a {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #0066D1;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 22px;
+}
+
+.banner-img-container {
+    margin-top: 34px;
+}
+
+.banner-img-container img {
+    width: 46vw;
+}
+
+#gray {
+    color: gray;
+}
+
+.banner-section {
+    background-image: url(/AppleProject/Project/images/home/iphone11-pro-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100% 100%;
+    height: 38vw;
+}
+
+#white {
+    color: white;
+}
+
+#thin {
+    font-size: 2.3rem;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+#second-banner {
+    background-image: url(/AppleProject/Project/images/home/iphone11-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100% 100%;
+    height: 41vw;
+}
+
+
+
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-1 {
+    background-image: url(/AppleProject/Project/images/home/watch-series-5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 49px;
+    height: 42vw;
+    width: 48%;
+    background-color: #f9f9f9;
+}
+
+.h3-con {
+    width: 400px;
+}
+
+.image-2 {
+    background-image: url(/AppleProject/Project/images/home/apple-card.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    height: 42vw;
+    width: 49%;
+    background-color: #F9F9F9;
+}
+
+
+.image-3 {
+    background-image: url(/AppleProject/Project/images/home/apple-tv-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    height: 42vw;
+    width: 49%;
+    background-color: #F9F9F9;
+}
+
+.first-section {
+    background-color: #F9F9F9;
+}
+
+.image-4 {
+    background-repeat: no-repeat;
+    padding: 25px;
+    width: 48%;
+    margin-left: 60px;
+    margin-right: 44px;
+    background-image: url(/AppleProject/Project/images/home/air-pods.jpg);
+
+    color: white;
+    background-color: #000;
+    background-position: bottom;
+}
+
+.purpule {
+    color: #781A8B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 79px;
+    font-weight: 400;
+}
+
+.pure-img {
+    width: 50px;
+}
+
+.purpule::after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 12px;
+}
+
+.image-5 {
+    background-image: url(/AppleProject/Project/images/home/macbook-pro.jpg);
+    background-position: center bottom;
+    background-size: 100% 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 88px;
+    width: 48%;
+    height: 49vw;
+    margin-left: 10px;
+    margin-right: 44px;
+}
+
+.image-6 {
+    background-image: url(/AppleProject/Project/images/home/new-ipad.jpg);
+    background-position: bottom;
+    background-size: 100% 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    width: 48%;
+    height: 48vw;
+    margin-left: 10px;
+    margin-right: 44px;
+}
+
+footer {
+    background-color: #F5F5F7;
+    padding: 12px;
+    font-size: 15px;
+    color: #86868b;
+}
+
+.internal-wrapper {
+    width: 1080px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.footer-links-container {
+    display: flex;
+    padding: 12px;
+
+}
+
+.footer-links-container ul li a {
+    text-decoration: none;
+    font-size: 0.70rem;
+    margin-top: 9px;
+    padding: 2px;
+}
+
+.footer-links-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-links-container ul li {
+    list-style-type: none;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+.left {
+    margin-left: 84px;
+}
+
+footer .title {
+    font-size: 15px;
+}
+
+footer a {
+    color: gray
+}
+
+.footer-p-row {
+    display: flex;
+}
+
+footer span {
+    border-left: 2px solid gray;
+    padding: 7px;
+    margin-left: 14px;
+    font-size: 12px;
+}
+
+.footer-wrapper {
+    width: 1209px;
+}
